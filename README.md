@@ -1,13 +1,15 @@
-# **Factory Method com DotEnv**
+# **Gráfico com Decorator e Builder**
 
-### Trabalho avaliativo para disciplina de Projetos de Sistemas de Software.
+### Avaliação Extra para disciplina de Projetos de Sistemas de Software.
 
-#### O objetivo é demonstrar a flexibilidade do Factory Method com o DotEnv.
+#### O objetivo é criar Gráficos com Decorator e Builder e a biblioteca JFreeChart.
 
 #### Integrantes:
 ####  -Pedro Lucas
 ####  -Erik Estevam
-####  -Daniel Santos
 
-#### Como exemplo do uso do Factory Method, foi usado um codígo para criar novos Produtos.
-#### Onde será escolhido o nome e valor de um produto, e ele será criado com um id maior do que o produto anterior (count+1).  
+#### A biblioteca JFreeChart é usada para plotar os gráficos na tela.
+#### Ao executar o código é lido um arquivo chamado "pessoas.csv".  
+#### Os dados desse arquivo foram usados para preenchero os gráficos que serão plotados.
+#### Foram criados três gráficos, o de barras, linhas e area.  
+#### Ao compilar o código o gráfico de barras será o padrão, e no topo dele terá três botões onde é possivel alternar entre os gráficos criados.
